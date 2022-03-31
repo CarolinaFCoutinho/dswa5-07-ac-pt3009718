@@ -13,7 +13,7 @@ angular.module('ifsp').controller('ContatoController',
             );
 
         } else { $scope.contato = new Contato(); }
-        /*
+        
                 $scope.salva = function() {
                   $scope.contato.$save()
                     .then(function() {
@@ -25,6 +25,5 @@ angular.module('ifsp').controller('ContatoController',
                         $scope.mensagem = {texto: 'Não foi possível salvar'};
                     });
                 }; 
-        */
 
     });
